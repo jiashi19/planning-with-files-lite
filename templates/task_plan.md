@@ -1,6 +1,6 @@
 # Task Plan: [Brief Description]
 
-Use this file as the durable roadmap for the task. Create it before complex work and keep it current as phases change.
+Use this file as the durable current-state roadmap for the task. Create it before complex work and keep it concise as phases change.
 
 ## Goal
 
@@ -12,78 +12,38 @@ State the intended end result in one clear sentence.
 
 Record the single action that should happen next. Update it whenever the active phase or immediate action changes.
 
-[The single next action. Update whenever phase status changes.]
+[The single next action]
 
 ## Current Phase
 
-Name the phase currently being worked on.
+- Name: Phase 1
+- Status: in_progress
+- Completion condition: [Observable condition]
 
-Phase 1
+## Active Task
 
-## Phases
+- ID: task-001
+- Scope: [What is included]
+- Status: in_progress
 
-Break the task into three to seven verifiable phases. Use only `pending`, `in_progress`, or `complete` for each status and update the value when work advances.
+Use only `pending`, `in_progress`, or `complete` for status values.
 
-### Phase 1: Requirements & Discovery
+## Constraints
 
-- [ ] Understand user intent
-- [ ] Identify constraints and requirements
-- [ ] Document findings in findings.md
-- **Status:** in_progress
+- Respect the user's current authorization and repository rules.
 
-### Phase 2: Planning & Structure
+## Blockers
 
-- [ ] Define technical approach
-- [ ] Create project structure if needed
-- [ ] Document decisions with rationale
-- **Status:** pending
+- None.
 
-### Phase 3: Implementation
+## Relevant Files
 
-- [ ] Execute the plan step by step
-- [ ] Write code to files before executing
-- [ ] Test incrementally
-- **Status:** pending
-
-### Phase 4: Testing & Verification
-
-- [ ] Verify all requirements met
-- [ ] Document test results in progress.md
-- [ ] Fix any issues found
-- **Status:** pending
-
-### Phase 5: Delivery
-
-- [ ] Review all output files
-- [ ] Ensure deliverables are complete
-- [ ] Deliver to user
-- **Status:** pending
-
-## Key Questions
-
-Record important questions and replace them with answers as they are resolved.
-
-1. [Question to answer]
-2. [Question to answer]
-
-## Decisions Made
-
-Record significant choices and the reason for each one.
-
-| Decision | Rationale |
-|----------|-----------|
-|          |           |
-
-## Errors Encountered
-
-Record each distinct error, the attempt number, and the resolution. Change the approach before retrying a failed action.
-
-| Error | Attempt | Resolution |
-|-------|---------|------------|
-|       | 1       |            |
+- `task_plan.md`
+- `findings.md`
+- `progress.md`
 
 ## Notes
 
-- Update phase status as work progresses: `pending` to `in_progress` to `complete`.
+- Keep this file focused on current state rather than completed-task history.
 - Re-read the goal and next step before major decisions.
-- Log errors promptly so failed approaches are not repeated.
+- Move completed detail to progress or a project-chosen history file.
